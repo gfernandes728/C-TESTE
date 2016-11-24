@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteKonsole", "TesteKonsole\TesteKonsole.csproj", "{57ABC001-10F0-465D-8376-95C3C6A2E1E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{1EFC3FD3-4A7D-46E0-B4C8-69EDB288E1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAgence", "..\..\..\..\Documents\Visual Studio 2015\Projects\TesteAgence\TesteAgence\TesteAgence.csproj", "{57A10514-C5EB-4488-AE81-943724EED82F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{57ABC001-10F0-465D-8376-95C3C6A2E1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57ABC001-10F0-465D-8376-95C3C6A2E1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57ABC001-10F0-465D-8376-95C3C6A2E1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A10514-C5EB-4488-AE81-943724EED82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A10514-C5EB-4488-AE81-943724EED82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A10514-C5EB-4488-AE81-943724EED82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A10514-C5EB-4488-AE81-943724EED82F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57A10514-C5EB-4488-AE81-943724EED82F} = {1EFC3FD3-4A7D-46E0-B4C8-69EDB288E1D4}
 	EndGlobalSection
 EndGlobal
