@@ -1,0 +1,57 @@
+﻿@model IEnumerable<TesteAgence.Models.AgenceModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Criar Marcação", "AdicionaMarcacao")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model._escala.Entrada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model._escala.SaidaAlmoco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model._escala.RetornoAlmoco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model._escala.Saida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model._horasGeradas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model._tipo)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item._escala.Entrada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item._escala.SaidaAlmoco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item._escala.RetornoAlmoco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item._escala.Saida)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item._horasGeradas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item._tipo)
+        </td>
+    </tr>
+}
+
+</table>

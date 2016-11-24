@@ -43,11 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agence.cs" />
+    <Compile Include="AgenceController.cs" />
+    <Compile Include="AgenceModel.cs" />
+    <Compile Include="EnumTiposDeOcorrencias.cs" />
+    <Compile Include="Escala.cs" />
+    <Compile Include="IInterpretarMarcacoes.cs" />
+    <Compile Include="IOcorrencia.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="UsuarioController.cs" />
+    <Compile Include="UsuarioModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Agence\AdicionaMarcacao.cshtml" />
     <None Include="App.config" />
+    <None Include="Agence\Index.cshtml" />
+    <None Include="Usuario\AdicionaUsuario.cshtml" />
+    <None Include="Usuario\Index.cshtml" />
+    <None Include="_Layout.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
