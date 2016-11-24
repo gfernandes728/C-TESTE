@@ -11,5 +11,10 @@ namespace TesteKonsole
         static void Main(string[] args)
         {
         }
+
+        public int getNumber(int a)
+        {
+            return a;
+        }
     }
 }
